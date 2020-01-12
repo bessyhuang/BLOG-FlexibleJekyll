@@ -1,7 +1,34 @@
-# Flexible-Jekyll is a simple and clean theme for Jekyll
+- https://bessyhuang.github.io/BLOG-FlexibleJekyll/
 
-  - https://bessyhuang.github.io/BLOG-FlexibleJekyll/
-  
+# Building a local copy of the site
+
+1. Copy the GitHub Repository `BLOG-FlexibleJekyll`
+
+    `git clone https://github.com/bessyhuang/BLOG-FlexibleJekyll.git` to local computer
+
+    ```
+    $ cd BLOG-FlexibleJekyll
+    ```
+
+2. [Installing Ruby development environment](https://www.ruby-lang.org/en/documentation/installation/)
+
+3. [Install Jekyll and bundler gems](https://jekyllrb.com/docs/)
+
+    ```
+    $ gem install jekyll bundler
+    $ bundler install
+    ```
+4. Build the site and make it available on a local server.
+
+	```
+	$ bundle exec jekyll serve
+	```
+
+5. Browse to http://localhost:4000
+
+---
+# Flexible-Jekyll is a simple and clean theme for Jekyll
+ 
 ![](https://github.com/artemsheludko/flexible-jekyll/blob/master/assets/img/promo-img.jpg?raw=true)
 
 ## Demo
